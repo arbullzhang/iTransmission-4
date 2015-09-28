@@ -158,36 +158,6 @@
 		895A74AE18D9CB7E00561CD6 /* Phone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 895A742318D9CB7E00561CD6 /* Phone.mp3 */; };
 		895A74AF18D9CB7E00561CD6 /* Ping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 895A742418D9CB7E00561CD6 /* Ping.aiff */; };
 		895A74B018D9CB7E00561CD6 /* Silence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 895A742518D9CB7E00561CD6 /* Silence.wav */; };
-		895A74B218D9CB7E00561CD6 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A742A18D9CB7E00561CD6 /* cancel.png */; };
-		895A74B318D9CB7E00561CD6 /* file_priority_buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A742B18D9CB7E00561CD6 /* file_priority_buttons.png */; };
-		895A74B418D9CB7E00561CD6 /* file_wanted_buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A742C18D9CB7E00561CD6 /* file_wanted_buttons.png */; };
-		895A74B518D9CB7E00561CD6 /* info_activity.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A742D18D9CB7E00561CD6 /* info_activity.png */; };
-		895A74B618D9CB7E00561CD6 /* info_files.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A742E18D9CB7E00561CD6 /* info_files.png */; };
-		895A74B718D9CB7E00561CD6 /* info_general.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A742F18D9CB7E00561CD6 /* info_general.png */; };
-		895A74B818D9CB7E00561CD6 /* info_peers.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743018D9CB7E00561CD6 /* info_peers.png */; };
-		895A74B918D9CB7E00561CD6 /* info_trackers.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743118D9CB7E00561CD6 /* info_trackers.png */; };
-		895A74BA18D9CB7E00561CD6 /* tab_backgrounds.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743218D9CB7E00561CD6 /* tab_backgrounds.png */; };
-		895A74BB18D9CB7E00561CD6 /* tab_backgrounds_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743318D9CB7E00561CD6 /* tab_backgrounds_highlight.png */; };
-		895A74BC18D9CB7E00561CD6 /* toolbar_buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743418D9CB7E00561CD6 /* toolbar_buttons.png */; };
-		895A74BD18D9CB7E00561CD6 /* torrent_buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743518D9CB7E00561CD6 /* torrent_buttons.png */; };
-		895A74BE18D9CB7E00561CD6 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 895A743618D9CB7E00561CD6 /* favicon.ico */; };
-		895A74BF18D9CB7E00561CD6 /* favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743718D9CB7E00561CD6 /* favicon.png */; };
-		895A74C018D9CB7E00561CD6 /* chrome.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743918D9CB7E00561CD6 /* chrome.png */; };
-		895A74C118D9CB7E00561CD6 /* filter_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743A18D9CB7E00561CD6 /* filter_bar.png */; };
-		895A74C218D9CB7E00561CD6 /* filter_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743B18D9CB7E00561CD6 /* filter_icon.png */; };
-		895A74C318D9CB7E00561CD6 /* iphone_chrome.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743C18D9CB7E00561CD6 /* iphone_chrome.png */; };
-		895A74C418D9CB7E00561CD6 /* lock_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743D18D9CB7E00561CD6 /* lock_icon.png */; };
-		895A74C518D9CB7E00561CD6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743E18D9CB7E00561CD6 /* logo.png */; };
-		895A74C618D9CB7E00561CD6 /* transfer_arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A743F18D9CB7E00561CD6 /* transfer_arrows.png */; };
-		895A74C718D9CB7E00561CD6 /* wait20.gif in Resources */ = {isa = PBXBuildFile; fileRef = 895A744018D9CB7E00561CD6 /* wait20.gif */; };
-		895A74C818D9CB7E00561CD6 /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A744218D9CB7E00561CD6 /* progress.png */; };
-		895A74C918D9CB7E00561CD6 /* webclip-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 895A744318D9CB7E00561CD6 /* webclip-icon.png */; };
-		895A74CA18D9CB7E00561CD6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 895A744418D9CB7E00561CD6 /* index.html */; };
-		895A74D818D9CB7E00561CD6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 895A745418D9CB7E00561CD6 /* LICENSE */; };
-		895A74D918D9CB7E00561CD6 /* common.css in Resources */ = {isa = PBXBuildFile; fileRef = 895A745618D9CB7E00561CD6 /* common.css */; };
-		895A74DA18D9CB7E00561CD6 /* ie6.css in Resources */ = {isa = PBXBuildFile; fileRef = 895A745718D9CB7E00561CD6 /* ie6.css */; };
-		895A74DB18D9CB7E00561CD6 /* ie7.css in Resources */ = {isa = PBXBuildFile; fileRef = 895A745818D9CB7E00561CD6 /* ie7.css */; };
-		895A74DC18D9CB7E00561CD6 /* iphone.css in Resources */ = {isa = PBXBuildFile; fileRef = 895A745918D9CB7E00561CD6 /* iphone.css */; };
 		895A74E218D9CB8500561CD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 895A74E018D9CB8500561CD6 /* main.m */; };
 		895A74F618D9CB8A00561CD6 /* FileListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 895A74E518D9CB8A00561CD6 /* FileListCell.xib */; };
 		895A74F718D9CB8A00561CD6 /* TorrentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 895A74E618D9CB8A00561CD6 /* TorrentCell.xib */; };
@@ -208,19 +178,6 @@
 		895A750718D9CF9B00561CD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895A750618D9CF9B00561CD6 /* Images.xcassets */; };
 		895A750918D9D4EF00561CD6 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 895A750818D9D4EF00561CD6 /* license.txt */; };
 		895A750A18D9D66200561CD6 /* functions.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A73F318D9CB7E00561CD6 /* functions.js */; };
-		895A750B18D9D66200561CD6 /* common.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A744618D9CB7E00561CD6 /* common.js */; };
-		895A750C18D9D66200561CD6 /* dialog.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A744718D9CB7E00561CD6 /* dialog.js */; };
-		895A750D18D9D66200561CD6 /* formatter.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A744818D9CB7E00561CD6 /* formatter.js */; };
-		895A750E18D9D66200561CD6 /* jquery.contextmenu.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A744A18D9CB7E00561CD6 /* jquery.contextmenu.min.js */; };
-		895A750F18D9D66200561CD6 /* jquery.form.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A744B18D9CB7E00561CD6 /* jquery.form.js */; };
-		895A751018D9D66200561CD6 /* jquery.form.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A744C18D9CB7E00561CD6 /* jquery.form.min.js */; };
-		895A751118D9D66200561CD6 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A744D18D9CB7E00561CD6 /* jquery.min.js */; };
-		895A751218D9D66200561CD6 /* jquery.transmenu.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A744E18D9CB7E00561CD6 /* jquery.transmenu.min.js */; };
-		895A751318D9D66200561CD6 /* json.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A744F18D9CB7E00561CD6 /* json.min.js */; };
-		895A751418D9D66200561CD6 /* menu.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A745018D9CB7E00561CD6 /* menu.js */; };
-		895A751518D9D66200561CD6 /* torrent.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A745118D9CB7E00561CD6 /* torrent.js */; };
-		895A751618D9D66200561CD6 /* transmission.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A745218D9CB7E00561CD6 /* transmission.js */; };
-		895A751718D9D66200561CD6 /* transmission.remote.js in Resources */ = {isa = PBXBuildFile; fileRef = 895A745318D9CB7E00561CD6 /* transmission.remote.js */; };
 		897DEFE418DEF01100E12909 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F9EE8818381630001A2A4D /* AVFoundation.framework */; };
 		898124A318884D2900DB955B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		898124A418884D2900DB955B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -228,6 +185,7 @@
 		898124A618884D2900DB955B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74861F521259DB06005FDE74 /* QuartzCore.framework */; };
 		898124A718884D2900DB955B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7437B171125B4B6500B456EF /* SystemConfiguration.framework */; };
 		89E7ABF618DA02E700EB5349 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E7ABF518DA02E700EB5349 /* Default-568h@2x.png */; };
+		B7DEB0AD1BB9415400ECE4A6 /* web in Resources */ = {isa = PBXBuildFile; fileRef = B7DEB0AC1BB9415400ECE4A6 /* web */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -438,49 +396,6 @@
 		895A742318D9CB7E00561CD6 /* Phone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Phone.mp3; sourceTree = "<group>"; };
 		895A742418D9CB7E00561CD6 /* Ping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Ping.aiff; sourceTree = "<group>"; };
 		895A742518D9CB7E00561CD6 /* Silence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Silence.wav; sourceTree = "<group>"; };
-		895A742A18D9CB7E00561CD6 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
-		895A742B18D9CB7E00561CD6 /* file_priority_buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_priority_buttons.png; sourceTree = "<group>"; };
-		895A742C18D9CB7E00561CD6 /* file_wanted_buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_wanted_buttons.png; sourceTree = "<group>"; };
-		895A742D18D9CB7E00561CD6 /* info_activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_activity.png; sourceTree = "<group>"; };
-		895A742E18D9CB7E00561CD6 /* info_files.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_files.png; sourceTree = "<group>"; };
-		895A742F18D9CB7E00561CD6 /* info_general.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_general.png; sourceTree = "<group>"; };
-		895A743018D9CB7E00561CD6 /* info_peers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_peers.png; sourceTree = "<group>"; };
-		895A743118D9CB7E00561CD6 /* info_trackers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_trackers.png; sourceTree = "<group>"; };
-		895A743218D9CB7E00561CD6 /* tab_backgrounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_backgrounds.png; sourceTree = "<group>"; };
-		895A743318D9CB7E00561CD6 /* tab_backgrounds_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_backgrounds_highlight.png; sourceTree = "<group>"; };
-		895A743418D9CB7E00561CD6 /* toolbar_buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar_buttons.png; sourceTree = "<group>"; };
-		895A743518D9CB7E00561CD6 /* torrent_buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = torrent_buttons.png; sourceTree = "<group>"; };
-		895A743618D9CB7E00561CD6 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
-		895A743718D9CB7E00561CD6 /* favicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favicon.png; sourceTree = "<group>"; };
-		895A743918D9CB7E00561CD6 /* chrome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrome.png; sourceTree = "<group>"; };
-		895A743A18D9CB7E00561CD6 /* filter_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_bar.png; sourceTree = "<group>"; };
-		895A743B18D9CB7E00561CD6 /* filter_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_icon.png; sourceTree = "<group>"; };
-		895A743C18D9CB7E00561CD6 /* iphone_chrome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_chrome.png; sourceTree = "<group>"; };
-		895A743D18D9CB7E00561CD6 /* lock_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock_icon.png; sourceTree = "<group>"; };
-		895A743E18D9CB7E00561CD6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		895A743F18D9CB7E00561CD6 /* transfer_arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transfer_arrows.png; sourceTree = "<group>"; };
-		895A744018D9CB7E00561CD6 /* wait20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wait20.gif; sourceTree = "<group>"; };
-		895A744218D9CB7E00561CD6 /* progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress.png; sourceTree = "<group>"; };
-		895A744318D9CB7E00561CD6 /* webclip-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webclip-icon.png"; sourceTree = "<group>"; };
-		895A744418D9CB7E00561CD6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		895A744618D9CB7E00561CD6 /* common.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = common.js; sourceTree = "<group>"; };
-		895A744718D9CB7E00561CD6 /* dialog.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dialog.js; sourceTree = "<group>"; };
-		895A744818D9CB7E00561CD6 /* formatter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = formatter.js; sourceTree = "<group>"; };
-		895A744A18D9CB7E00561CD6 /* jquery.contextmenu.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.contextmenu.min.js; sourceTree = "<group>"; };
-		895A744B18D9CB7E00561CD6 /* jquery.form.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.form.js; sourceTree = "<group>"; };
-		895A744C18D9CB7E00561CD6 /* jquery.form.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.form.min.js; sourceTree = "<group>"; };
-		895A744D18D9CB7E00561CD6 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
-		895A744E18D9CB7E00561CD6 /* jquery.transmenu.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.transmenu.min.js; sourceTree = "<group>"; };
-		895A744F18D9CB7E00561CD6 /* json.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = json.min.js; sourceTree = "<group>"; };
-		895A745018D9CB7E00561CD6 /* menu.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = menu.js; sourceTree = "<group>"; };
-		895A745118D9CB7E00561CD6 /* torrent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = torrent.js; sourceTree = "<group>"; };
-		895A745218D9CB7E00561CD6 /* transmission.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = transmission.js; sourceTree = "<group>"; };
-		895A745318D9CB7E00561CD6 /* transmission.remote.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = transmission.remote.js; sourceTree = "<group>"; };
-		895A745418D9CB7E00561CD6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		895A745618D9CB7E00561CD6 /* common.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = common.css; sourceTree = "<group>"; };
-		895A745718D9CB7E00561CD6 /* ie6.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ie6.css; sourceTree = "<group>"; };
-		895A745818D9CB7E00561CD6 /* ie7.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ie7.css; sourceTree = "<group>"; };
-		895A745918D9CB7E00561CD6 /* iphone.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iphone.css; sourceTree = "<group>"; };
 		895A74DE18D9CB8500561CD6 /* iTransmission-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iTransmission-Info.plist"; sourceTree = "<group>"; };
 		895A74DF18D9CB8500561CD6 /* iTransmission_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTransmission_Prefix.pch; sourceTree = "<group>"; };
 		895A74E018D9CB8500561CD6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -507,6 +422,7 @@
 		89F9EE8618381627001A2A4D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		89F9EE8818381630001A2A4D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ACE6CA48189DBE2200444349 /* libSystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.dylib; path = usr/lib/libSystem.dylib; sourceTree = SDKROOT; };
+		B7DEB0AC1BB9415400ECE4A6 /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; name = web; path = "../../../../../Downloads/iTransmission-4-39bcb02c0545623c9aa6dbebd15efbd2d8ac9a27-2/Project/Resources/web"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -816,11 +732,11 @@
 		895A73C518D9CB7D00561CD6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B7DEB0AC1BB9415400ECE4A6 /* web */,
 				895A73CE18D9CB7D00561CD6 /* Info */,
 				895A740418D9CB7E00561CD6 /* Photo Components */,
 				895A741F18D9CB7E00561CD6 /* Regex */,
 				895A742218D9CB7E00561CD6 /* Sounds */,
-				895A742718D9CB7E00561CD6 /* web */,
 				895A750618D9CF9B00561CD6 /* Images.xcassets */,
 				895A750818D9D4EF00561CD6 /* license.txt */,
 			);
@@ -965,112 +881,6 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		895A742718D9CB7E00561CD6 /* web */ = {
-			isa = PBXGroup;
-			children = (
-				895A742818D9CB7E00561CD6 /* images */,
-				895A744418D9CB7E00561CD6 /* index.html */,
-				895A744518D9CB7E00561CD6 /* javascript */,
-				895A745418D9CB7E00561CD6 /* LICENSE */,
-				895A745518D9CB7E00561CD6 /* stylesheets */,
-			);
-			path = web;
-			sourceTree = "<group>";
-		};
-		895A742818D9CB7E00561CD6 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				895A742918D9CB7E00561CD6 /* buttons */,
-				895A743618D9CB7E00561CD6 /* favicon.ico */,
-				895A743718D9CB7E00561CD6 /* favicon.png */,
-				895A743818D9CB7E00561CD6 /* graphics */,
-				895A744118D9CB7E00561CD6 /* progress */,
-				895A744318D9CB7E00561CD6 /* webclip-icon.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		895A742918D9CB7E00561CD6 /* buttons */ = {
-			isa = PBXGroup;
-			children = (
-				895A742A18D9CB7E00561CD6 /* cancel.png */,
-				895A742B18D9CB7E00561CD6 /* file_priority_buttons.png */,
-				895A742C18D9CB7E00561CD6 /* file_wanted_buttons.png */,
-				895A742D18D9CB7E00561CD6 /* info_activity.png */,
-				895A742E18D9CB7E00561CD6 /* info_files.png */,
-				895A742F18D9CB7E00561CD6 /* info_general.png */,
-				895A743018D9CB7E00561CD6 /* info_peers.png */,
-				895A743118D9CB7E00561CD6 /* info_trackers.png */,
-				895A743218D9CB7E00561CD6 /* tab_backgrounds.png */,
-				895A743318D9CB7E00561CD6 /* tab_backgrounds_highlight.png */,
-				895A743418D9CB7E00561CD6 /* toolbar_buttons.png */,
-				895A743518D9CB7E00561CD6 /* torrent_buttons.png */,
-			);
-			path = buttons;
-			sourceTree = "<group>";
-		};
-		895A743818D9CB7E00561CD6 /* graphics */ = {
-			isa = PBXGroup;
-			children = (
-				895A743918D9CB7E00561CD6 /* chrome.png */,
-				895A743A18D9CB7E00561CD6 /* filter_bar.png */,
-				895A743B18D9CB7E00561CD6 /* filter_icon.png */,
-				895A743C18D9CB7E00561CD6 /* iphone_chrome.png */,
-				895A743D18D9CB7E00561CD6 /* lock_icon.png */,
-				895A743E18D9CB7E00561CD6 /* logo.png */,
-				895A743F18D9CB7E00561CD6 /* transfer_arrows.png */,
-				895A744018D9CB7E00561CD6 /* wait20.gif */,
-			);
-			path = graphics;
-			sourceTree = "<group>";
-		};
-		895A744118D9CB7E00561CD6 /* progress */ = {
-			isa = PBXGroup;
-			children = (
-				895A744218D9CB7E00561CD6 /* progress.png */,
-			);
-			path = progress;
-			sourceTree = "<group>";
-		};
-		895A744518D9CB7E00561CD6 /* javascript */ = {
-			isa = PBXGroup;
-			children = (
-				895A744618D9CB7E00561CD6 /* common.js */,
-				895A744718D9CB7E00561CD6 /* dialog.js */,
-				895A744818D9CB7E00561CD6 /* formatter.js */,
-				895A744918D9CB7E00561CD6 /* jquery */,
-				895A745018D9CB7E00561CD6 /* menu.js */,
-				895A745118D9CB7E00561CD6 /* torrent.js */,
-				895A745218D9CB7E00561CD6 /* transmission.js */,
-				895A745318D9CB7E00561CD6 /* transmission.remote.js */,
-			);
-			path = javascript;
-			sourceTree = "<group>";
-		};
-		895A744918D9CB7E00561CD6 /* jquery */ = {
-			isa = PBXGroup;
-			children = (
-				895A744A18D9CB7E00561CD6 /* jquery.contextmenu.min.js */,
-				895A744B18D9CB7E00561CD6 /* jquery.form.js */,
-				895A744C18D9CB7E00561CD6 /* jquery.form.min.js */,
-				895A744D18D9CB7E00561CD6 /* jquery.min.js */,
-				895A744E18D9CB7E00561CD6 /* jquery.transmenu.min.js */,
-				895A744F18D9CB7E00561CD6 /* json.min.js */,
-			);
-			path = jquery;
-			sourceTree = "<group>";
-		};
-		895A745518D9CB7E00561CD6 /* stylesheets */ = {
-			isa = PBXGroup;
-			children = (
-				895A745618D9CB7E00561CD6 /* common.css */,
-				895A745718D9CB7E00561CD6 /* ie6.css */,
-				895A745818D9CB7E00561CD6 /* ie7.css */,
-				895A745918D9CB7E00561CD6 /* iphone.css */,
-			);
-			path = stylesheets;
-			sourceTree = "<group>";
-		};
 		895A74DD18D9CB8500561CD6 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -1191,57 +1001,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				895A750A18D9D66200561CD6 /* functions.js in Resources */,
-				895A750B18D9D66200561CD6 /* common.js in Resources */,
-				895A750C18D9D66200561CD6 /* dialog.js in Resources */,
-				895A750D18D9D66200561CD6 /* formatter.js in Resources */,
-				895A750E18D9D66200561CD6 /* jquery.contextmenu.min.js in Resources */,
-				895A750F18D9D66200561CD6 /* jquery.form.js in Resources */,
-				895A751018D9D66200561CD6 /* jquery.form.min.js in Resources */,
-				895A751118D9D66200561CD6 /* jquery.min.js in Resources */,
-				895A751218D9D66200561CD6 /* jquery.transmenu.min.js in Resources */,
-				895A751318D9D66200561CD6 /* json.min.js in Resources */,
-				895A751418D9D66200561CD6 /* menu.js in Resources */,
-				895A751518D9D66200561CD6 /* torrent.js in Resources */,
-				895A751618D9D66200561CD6 /* transmission.js in Resources */,
-				895A751718D9D66200561CD6 /* transmission.remote.js in Resources */,
-				895A74B518D9CB7E00561CD6 /* info_activity.png in Resources */,
 				895A749718D9CB7E00561CD6 /* blueArrow@2x.png in Resources */,
-				895A74C018D9CB7E00561CD6 /* chrome.png in Resources */,
-				895A74BD18D9CB7E00561CD6 /* torrent_buttons.png in Resources */,
 				895A74F618D9CB8A00561CD6 /* FileListCell.xib in Resources */,
 				895A748E18D9CB7E00561CD6 /* voice.png in Resources */,
-				895A74C718D9CB7E00561CD6 /* wait20.gif in Resources */,
 				895A74A118D9CB7E00561CD6 /* gear-icon@2x.png in Resources */,
 				895A74A318D9CB7E00561CD6 /* grayArrow@2x.png in Resources */,
 				895A74F818D9CB8A00561CD6 /* TrackerCell.xib in Resources */,
 				895A73A918D9CB6F00561CD6 /* bannerNotify.png in Resources */,
-				895A74BB18D9CB7E00561CD6 /* tab_backgrounds_highlight.png in Resources */,
-				895A74BC18D9CB7E00561CD6 /* toolbar_buttons.png in Resources */,
-				895A74BF18D9CB7E00561CD6 /* favicon.png in Resources */,
-				895A74C418D9CB7E00561CD6 /* lock_icon.png in Resources */,
 				895A748718D9CB7E00561CD6 /* maps.png in Resources */,
 				895A748118D9CB7E00561CD6 /* tributton.png in Resources */,
 				895A74FB18D9CB8A00561CD6 /* DiscoveredTorrentCell.xib in Resources */,
 				895A747618D9CB7E00561CD6 /* navleft.png in Resources */,
-				895A74C518D9CB7E00561CD6 /* logo.png in Resources */,
 				895A748318D9CB7E00561CD6 /* accessibility.png in Resources */,
 				895A749418D9CB7E00561CD6 /* blackArrow.png in Resources */,
-				895A74B318D9CB7E00561CD6 /* file_priority_buttons.png in Resources */,
-				895A74B818D9CB7E00561CD6 /* info_peers.png in Resources */,
-				895A74D918D9CB7E00561CD6 /* common.css in Resources */,
 				895A748618D9CB7E00561CD6 /* mail.png in Resources */,
 				895A747218D9CB7E00561CD6 /* home.png in Resources */,
 				895A74B018D9CB7E00561CD6 /* Silence.wav in Resources */,
 				895A74A918D9CB7E00561CD6 /* whiteArrow.png in Resources */,
 				895A74AA18D9CB7E00561CD6 /* whiteArrow@2x.png in Resources */,
-				895A74DC18D9CB7E00561CD6 /* iphone.css in Resources */,
 				895A73C118D9CB6F00561CD6 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
 				895A73BA18D9CB6F00561CD6 /* SVWebViewController.bundle in Resources */,
 				895A74F718D9CB8A00561CD6 /* TorrentCell.xib in Resources */,
 				895A73BF18D9CB6F00561CD6 /* SVWebViewControllerActivityChrome@2x.png in Resources */,
 				895A74AB18D9CB7E00561CD6 /* YellowDot.png in Resources */,
 				895A749318D9CB7E00561CD6 /* bandwidth-icon@2x.png in Resources */,
-				895A74B718D9CB7E00561CD6 /* info_general.png in Resources */,
 				895A746C18D9CB7E00561CD6 /* 3starsborder.png in Resources */,
 				895A73AB18D9CB6F00561CD6 /* bannerSuccess.png in Resources */,
 				895A747718D9CB7E00561CD6 /* navleftblack.png in Resources */,
@@ -1250,9 +1033,9 @@
 				895A74A218D9CB7E00561CD6 /* grayArrow.png in Resources */,
 				895A74AC18D9CB7E00561CD6 /* magnet_ex in Resources */,
 				895A746A18D9CB7E00561CD6 /* 2starsborder.png in Resources */,
+				B7DEB0AD1BB9415400ECE4A6 /* web in Resources */,
 				895A74A618D9CB7E00561CD6 /* play_icon-ios7@2x.png in Resources */,
 				895A749E18D9CB7E00561CD6 /* FavIcon.png in Resources */,
-				895A74C318D9CB7E00561CD6 /* iphone_chrome.png in Resources */,
 				895A74A818D9CB7E00561CD6 /* up-arrow.png in Resources */,
 				895A747318D9CB7E00561CD6 /* navbutton.png in Resources */,
 				895A73BD18D9CB6F00561CD6 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
@@ -1261,63 +1044,49 @@
 				895A746F18D9CB7E00561CD6 /* 5stars.png in Resources */,
 				895A747E18D9CB7E00561CD6 /* play.gif in Resources */,
 				895A748C18D9CB7E00561CD6 /* start.png in Resources */,
-				895A74DB18D9CB7E00561CD6 /* ie7.css in Resources */,
 				895A750218D9CB8A00561CD6 /* TrackersViewController.xib in Resources */,
 				895A748F18D9CB7E00561CD6 /* youtube.png in Resources */,
-				895A74D818D9CB7E00561CD6 /* LICENSE in Resources */,
 				895A74A718D9CB7E00561CD6 /* question-mark.png in Resources */,
-				895A74B918D9CB7E00561CD6 /* info_trackers.png in Resources */,
 				895A747818D9CB7E00561CD6 /* navlinkleft.png in Resources */,
-				895A74C818D9CB7E00561CD6 /* progress.png in Resources */,
 				895A747C18D9CB7E00561CD6 /* navright.png in Resources */,
 				895A747D18D9CB7E00561CD6 /* navrightblack.png in Resources */,
 				895A746B18D9CB7E00561CD6 /* 3stars.png in Resources */,
-				895A74C918D9CB7E00561CD6 /* webclip-icon.png in Resources */,
 				895A749D18D9CB7E00561CD6 /* down_arrow.png in Resources */,
 				895A74A518D9CB7E00561CD6 /* pause_icon-ios7@2x.png in Resources */,
 				895A749218D9CB7E00561CD6 /* bandwidth-icon.png in Resources */,
-				895A74B618D9CB7E00561CD6 /* info_files.png in Resources */,
 				895A747118D9CB7E00561CD6 /* checkbox.png in Resources */,
 				895A73B818D9CB6F00561CD6 /* SVWebViewController.strings in Resources */,
 				895A748918D9CB7E00561CD6 /* other.png in Resources */,
 				895A746718D9CB7E00561CD6 /* 1stars.png in Resources */,
 				895A750318D9CB8A00561CD6 /* TrackersViewController_iPad.xib in Resources */,
 				895A73A518D9CB6F00561CD6 /* bannerAlert.png in Resources */,
-				895A74C218D9CB7E00561CD6 /* filter_icon.png in Resources */,
 				895A746618D9CB7E00561CD6 /* 0starsborder.png in Resources */,
 				895A74A018D9CB7E00561CD6 /* gear-icon.png in Resources */,
 				895A746E18D9CB7E00561CD6 /* 4starsborder.png in Resources */,
 				895A749F18D9CB7E00561CD6 /* FavIcon@2x.png in Resources */,
 				895A73BC18D9CB6F00561CD6 /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
 				895A747018D9CB7E00561CD6 /* arrow.png in Resources */,
-				895A74C118D9CB7E00561CD6 /* filter_bar.png in Resources */,
-				895A74BA18D9CB7E00561CD6 /* tab_backgrounds.png in Resources */,
 				895A73C318D9CB6F00561CD6 /* SVWebViewControllerActivitySafari@2x.png in Resources */,
 				895A73AC18D9CB6F00561CD6 /* bannerSuccess@2x.png in Resources */,
-				895A74DA18D9CB7E00561CD6 /* ie6.css in Resources */,
 				895A747B18D9CB7E00561CD6 /* navlinkrightblack.png in Resources */,
 				895A74FC18D9CB8A00561CD6 /* FileListController_iPad.xib in Resources */,
 				895A749918D9CB7E00561CD6 /* checkbox_checked.png in Resources */,
 				895A749C18D9CB7E00561CD6 /* doneup.png in Resources */,
-				895A74B418D9CB7E00561CD6 /* file_wanted_buttons.png in Resources */,
 				895A74FD18D9CB8A00561CD6 /* FileListViewController.xib in Resources */,
 				895A746118D9CB7E00561CD6 /* about.html in Resources */,
 				895A74FF18D9CB8A00561CD6 /* PrefViewController_iPad.xib in Resources */,
 				89E7ABF618DA02E700EB5349 /* Default-568h@2x.png in Resources */,
-				895A74CA18D9CB7E00561CD6 /* index.html in Resources */,
 				895A746318D9CB7E00561CD6 /* style.css in Resources */,
 				895A748518D9CB7E00561CD6 /* itunes.png in Resources */,
 				895A750018D9CB8A00561CD6 /* TorrentViewController.xib in Resources */,
 				895A73A618D9CB6F00561CD6 /* bannerAlert@2x.png in Resources */,
 				895A746418D9CB7E00561CD6 /* gplv3.html in Resources */,
 				895A74FA18D9CB8A00561CD6 /* DetailViewController.xib in Resources */,
-				895A74C618D9CB7E00561CD6 /* transfer_arrows.png in Resources */,
 				895A73A818D9CB6F00561CD6 /* bannerFailure@2x.png in Resources */,
 				895A749A18D9CB7E00561CD6 /* checkbox_unchecked.png in Resources */,
 				895A746218D9CB7E00561CD6 /* changelog.html in Resources */,
 				895A746518D9CB7E00561CD6 /* 0stars.png in Resources */,
 				895A748018D9CB7E00561CD6 /* searchfield.png in Resources */,
-				895A74BE18D9CB7E00561CD6 /* favicon.ico in Resources */,
 				895A74AE18D9CB7E00561CD6 /* Phone.mp3 in Resources */,
 				895A749B18D9CB7E00561CD6 /* donedown.png in Resources */,
 				895A748418D9CB7E00561CD6 /* appstore.png in Resources */,
@@ -1334,7 +1103,6 @@
 				895A750118D9CB8A00561CD6 /* TorrentViewController_iPad.xib in Resources */,
 				895A750518D9CB8A00561CD6 /* StatisticsView.xib in Resources */,
 				895A750718D9CF9B00561CD6 /* Images.xcassets in Resources */,
-				895A74B218D9CB7E00561CD6 /* cancel.png in Resources */,
 				895A748D18D9CB7E00561CD6 /* telephone.png in Resources */,
 				895A747F18D9CB7E00561CD6 /* radiobutton.png in Resources */,
 				895A74AF18D9CB7E00561CD6 /* Ping.aiff in Resources */,
@@ -1464,21 +1232,17 @@
 				GCC_PREFIX_HEADER = iTransmission_prefix.pch;
 				GCC_STRICT_ALIASING = YES;
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Libraries/include/${CURRENT_ARCH}\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Libraries/lib\"/**";
-				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos9.1;
 				SHARED_PRECOMPS_DIR = "";
-				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Libraries/include/${CURRENT_ARCH}\"/**";
-				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Distribution;
 		};
@@ -1545,20 +1309,18 @@
 				CLANG_WARN_INT_CONVERSION = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/iTransmission_Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "\"Libraries/include/${CURRENT_ARCH}\"/**";
 				INFOPLIST_FILE = "Other Sources/iTransmission-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_DEPENDENCY_INFO_FILE = "";
 				LIBRARY_SEARCH_PATHS = "Libraries/lib/**";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ltransmission",
 					"-levent",
@@ -1574,11 +1336,8 @@
 					"-lutp",
 				);
 				PRODUCT_NAME = iTransmission;
-				SDKROOT = iphoneos;
 				SHARED_PRECOMPS_DIR = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"Libraries/include/${CURRENT_ARCH}\"/**";
-				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -1594,18 +1353,15 @@
 				CLANG_WARN_INT_CONVERSION = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				COPY_PHASE_STRIP = YES;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/iTransmission_Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "\"Libraries/include/${CURRENT_ARCH}\"/**";
 				INFOPLIST_FILE = "Other Sources/iTransmission-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_DEPENDENCY_INFO_FILE = "";
 				LIBRARY_SEARCH_PATHS = "Libraries/lib/**";
-				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ltransmission",
 					"-levent",
@@ -1621,12 +1377,9 @@
 					"-lutp",
 				);
 				PRODUCT_NAME = iTransmission;
-				SDKROOT = iphoneos;
 				SHARED_PRECOMPS_DIR = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"Libraries/include/${CURRENT_ARCH}\"/**";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -1642,18 +1395,15 @@
 				CLANG_WARN_INT_CONVERSION = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				COPY_PHASE_STRIP = YES;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/iTransmission_Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "\"Libraries/include/${CURRENT_ARCH}\"/**";
 				INFOPLIST_FILE = "Other Sources/iTransmission-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_DEPENDENCY_INFO_FILE = "";
 				LIBRARY_SEARCH_PATHS = "Libraries/lib/**";
-				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ltransmission",
 					"-levent",
@@ -1669,12 +1419,9 @@
 					"-lutp",
 				);
 				PRODUCT_NAME = iTransmission;
-				SDKROOT = iphoneos;
 				SHARED_PRECOMPS_DIR = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"Libraries/include/${CURRENT_ARCH}\"/**";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Distribution;
 		};
@@ -1688,7 +1435,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_SSE3_EXTENSIONS = NO;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
@@ -1696,21 +1442,17 @@
 				GCC_PREFIX_HEADER = iTransmission_prefix.pch;
 				GCC_STRICT_ALIASING = YES;
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Libraries/include/${CURRENT_ARCH}\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Libraries/lib\"/**";
-				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos9.1;
 				SHARED_PRECOMPS_DIR = "";
-				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Libraries/include/${CURRENT_ARCH}\"/**";
-				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Debug;
 		};
@@ -1730,22 +1472,17 @@
 				GCC_PREFIX_HEADER = iTransmission_prefix.pch;
 				GCC_STRICT_ALIASING = YES;
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Libraries/include/${CURRENT_ARCH}\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Libraries/lib\"/**";
-				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos9.1;
 				SHARED_PRECOMPS_DIR = "";
-				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Libraries/include/${CURRENT_ARCH}\"/**";
-				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Release;
 		};

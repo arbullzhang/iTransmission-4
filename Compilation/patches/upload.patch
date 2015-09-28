@@ -1,0 +1,20 @@
+--- rpc-server.c	2015-09-28 12:25:13.000000000 +0200
++++ rpc-server_new.c	2015-09-28 12:23:53.000000000 +0200
+@@ -229,7 +229,7 @@
+           hasSessionId = ourlen<=p->body_len && !memcmp (p->body, ours, ourlen);
+         }
+ 
+-      if (!hasSessionId)
++      if (!hasSessionId && false)
+         {
+           int code = 409;
+           const char * codetext = tr_webGetResponseStr (code);
+@@ -658,7 +658,7 @@
+         {
+           handle_web_client (req, server);
+         }
+-      else if (!strcmp (req->uri + strlen (server->url), "upload"))
++      else if (!strncmp (req->uri + strlen (server->url), "upload", 6))
+         {
+           handle_upload (req, server);
+         }

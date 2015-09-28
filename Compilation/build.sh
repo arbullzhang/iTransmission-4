@@ -2,17 +2,20 @@
 
 # original script taken from iTransmission project
 # (https://github.com/ccp0101/iTransmission/blob/master/make_depend/build.sh)
- 
-. configuration
+
+ARCHS="x86_64"
+PARALLEL_NUM=1
+
+CURL_VERSION=7.44.0
+LIBEVENT_VERSION="2.0.22-stable"
+OPENSSL_VERSION=1.0.1p
+TRANSMISSION_VERSION=2.84
 
 export TEMP_DIR="$PWD/temp"
 export PATCH_DIR="$PWD/patches"
 export DEPENDENCY_DIR="$PWD/dependency"
 export BUILD_FILTER="ssl,curl,trans,libev"
-export TOOL_DIR="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin"
-#GCC_DIR Assuming gcc-4.8 is installed using homebrew
-export GCC_DIR="/usr/local/Cellar/gcc48/4.8.2/bin"
-export Min_IPHONE_OS=5.0
+export Min_IPHONE_OS=9.0
 
 function do_abort {
 	echo $1 >&2
@@ -23,24 +26,18 @@ function do_loadenv {
 	export BUILD_DIR="$PWD/out/${ARCH}"
 	export TRANS_LINKER_FLAGS="-framework CoreFoundation "
 
-	if [ ${ARCH} = "i386" ]
+	if [ ${ARCH} = "x86_64" ]
 		then
 		PLATFORM="iPhoneSimulator"
-	elif [ ${ARCH} = "x86_64" ]
-		then
-		PLATFORM="iPhoneSimulator"
-	elif [ ${ARCH} = "armv7" ]
-		then
-		PLATFORM="iPhoneOS"
+		SDK="iphonesimulator"
 	elif [ ${ARCH} = "armv7s" ]
 		then
 		PLATFORM="iPhoneOS"
+		SDK="iphoneos"		
 	elif [ ${ARCH} = "arm64" ]
 		then
 		PLATFORM="iPhoneOS"
-	elif [ ${ARCH} = "armv6" ]
-		then
-		PLATFORM="iPhoneOS"
+		SDK="iphoneos"		
 	elif [ ${ARCH} = "system" ]
 		then
 		PLATFORM="none"
@@ -52,26 +49,21 @@ function do_loadenv {
 function do_export {
 	unset CFLAGS
 	if [[ ${ARCH} != "system" ]]; then
-		export DEVROOT="${DEVELOPER_DIR}/Platforms/${PLATFORM}.platform/Developer"
-		export SDKROOT="${DEVELOPER_DIR}/Platforms/${PLATFORM}.platform/Developer/SDKs/${PLATFORM}$SDK_VERSION.sdk"
+		export DEVROOT=`xcrun --sdk ${SDK} --show-sdk-path`/../../
+		export SDKROOT=`xcrun --sdk ${SDK} --show-sdk-path`
 		export LD=${DEVROOT}/usr/bin/ld
-		#export CPP="${TOOL_DIR}/cpp"
-        export CPP="${GCC_DIR}/cpp-4.8"
-        export CXX="${TOOL_DIR}/clang++" 
-        #export CXX="${GCC_DIR}/c++-4.8" 
+		export CPP="xcrun -sdk ${SDK} cpp"
+        export CXX="xcrun -sdk ${SDK} clang++" 
 		unset AR
 		unset AS
 		export NM=${DEVROOT}/usr/bin/nm
-		#export CXXCPP="${TOOL_DIR}/cpp"
-		export CXXCPP="${GCC_DIR}/cpp-4.8"
-		export RANLIB="${TOOL_DIR}/ranlib"
-		#export RANLIB="${GCC_DIR}/gcc-ranlib-4.8"
+		export CXXCPP="xcrun -sdk ${SDK} cpp"
+		export RANLIB="xcrun -sdk ${SDK} ranlib"
 		export CFLAGS="-arch ${ARCH} -isysroot ${SDKROOT} -miphoneos-version-min=${Min_IPHONE_OS}"
 		export LDFLAGS="-L${SDKROOT}/usr/lib -L${DEVROOT}/usr/lib -isysroot ${SDKROOT} -Wl,-syslibroot $SDKROOT"
 		export HAVE_CXX="yes"
 	fi
-	export CC="${TOOL_DIR}/clang"
-	#export CC="${GCC_DIR}/gcc-4.8"
+	export CC="xcrun -sdk ${SDK} clang"
 	export CFLAGS="${CFLAGS} -I${BUILD_DIR}/include -I${SDKROOT}/usr/include -pipe -no-cpp-precomp"
 	export CXXFLAGS="${CFLAGS}"
 	export LDFLAGS="-L${SDKROOT}/usr/lib -L${BUILD_DIR}/lib -pipe -no-cpp-precomp ${LDFLAGS}"
@@ -126,8 +118,8 @@ function do_openssl {
 		popd
 	fi
 	
-	make -j ${PARALLEL_NUM} || do_abort "$FUNCNAME: make failed "
-	make install || do_abort "$FUNCNAME: install failed "
+	xcrun -sdk ${SDK} make -j ${PARALLEL_NUM} || do_abort "$FUNCNAME: make failed "
+	xcrun -sdk ${SDK} make install || do_abort "$FUNCNAME: install failed "
 	
 	rm -rf ${BUILD_DIR}/share/man
 	
@@ -154,8 +146,8 @@ function do_curl {
 
 	./configure --prefix="${BUILD_DIR}" ${COMMON_OPTIONS} --with-random=/dev/urandom --with-ssl --with-zlib LDFLAGS="${LDFLAGS}" || do_abort "$FUNCNAME: configure failed "
 	
-	make -j ${PARALLEL_NUM} || do_abort "$FUNCNAME: make failed "
-	make install || do_abort "$FUNCNAME: install failed "
+	xcrun -sdk ${SDK} make -j ${PARALLEL_NUM} || do_abort "$FUNCNAME: make failed "
+	xcrun -sdk ${SDK} make install || do_abort "$FUNCNAME: install failed "
 	
 	popd
 	popd
@@ -167,7 +159,7 @@ function do_libevent {
 	pushd ${TEMP_DIR}
 	if [ ! -e "${PACKAGE_NAME}.tar.gz" ]
 	then
-	  /usr/bin/curl -O -L "http://cloud.github.com/downloads/libevent/libevent/${PACKAGE_NAME}.tar.gz" || do_abort "$FUNCNAME: fetch failed "
+	  /usr/bin/curl -O -L "https://github.com/libevent/libevent/releases/download/release-${LIBEVENT_VERSION}/${PACKAGE_NAME}.tar.gz" || do_abort "$FUNCNAME: fetch failed "
 	fi
 	
     if [[ -z $DONT_OVERWRITE ]]; then
@@ -185,13 +177,13 @@ function do_libevent {
 	do_export
 
 	if [[ ! -z $DONT_OVERWRITE ]]; then
-		make clean
+		xcrun -sdk ${SDK} make clean
 	fi
 	
 	./configure --prefix="${BUILD_DIR}" ${COMMON_OPTIONS} || do_abort "$FUNCNAME: configure failed "
 	
-	make -j ${PARALLEL_NUM} || do_abort "$FUNCNAME: make failed "
-	make install || do_abort "$FUNCNAME: install failed "
+	xcrun -sdk ${SDK} make -j ${PARALLEL_NUM} || do_abort "$FUNCNAME: make failed "
+	xcrun -sdk ${SDK} make install || do_abort "$FUNCNAME: install failed "
 	
 	popd
 	popd
@@ -215,12 +207,14 @@ function do_transmission {
 	#apply whitelist patch (to allow LAN clients by default)
 	pushd libtransmission
 	patch -N < ${PATCH_DIR}/rpc_lan_whitelist.patch
+	patch -N < ${PATCH_DIR}/sessionid.patch	
+	patch -N < ${PATCH_DIR}/upload.patch		
 	popd
 	
 	do_export
 
 	if [[ ! -z $DONT_OVERWRITE ]]; then
-		make clean
+		xcrun -sdk ${SDK} make clean
 	fi
 
 	export CFLAGS="${CFLAGS} -framework CoreFoundation"
@@ -231,8 +225,8 @@ function do_transmission {
 	mkdir -p ${BUILD_DIR}/include/net
 	cp "${DEPENDENCY_DIR}/route.h" "${BUILD_DIR}/include/net/route.h"
 	
-	make -j ${PARALLEL_NUM} || do_abort "$FUNCNAME: make failed "
-	make install || do_abort "$FUNCNAME: install failed "
+	xcrun -sdk ${SDK} make -j ${PARALLEL_NUM} || do_abort "$FUNCNAME: make failed "
+	xcrun -sdk ${SDK} make install || do_abort "$FUNCNAME: install failed "
 	
 	# Default installation doesn't copy library and header files
 	mkdir -p ${BUILD_DIR}/include/libtransmission
@@ -244,7 +238,7 @@ function do_transmission {
 	popd
 }
 
-for ARCH in "${ARCHS[@]}"
+for ARCH in $ARCHS
 do
 do_loadenv
 
@@ -273,10 +267,12 @@ while getopts ":o:a:ne" opt; do
 	esac
 done
 
+echo "ARCH: ${ARCH}"
+
 mkdir -p ${TEMP_DIR}
-do_openssl
-do_curl
-do_libevent
+#do_openssl
+#do_curl
+#do_libevent
 do_transmission
 
 done

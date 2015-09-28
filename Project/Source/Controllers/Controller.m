@@ -93,6 +93,8 @@ static void signal_handler(int sig) {
 	
     [self.window makeKeyAndVisible];
     
+    self.window.rootViewController = self.navController;
+    
     /* start logging if needed */
     [DDLog addLogger:[DDASLLogger sharedInstance]];
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
@@ -867,32 +869,41 @@ static void signal_handler(int sig) {
     
     [torrent update];
     [fTorrents addObject: torrent];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:NotificationNewTorrentAdded object:self userInfo:nil];
+    [self updateTorrentHistory];
 }
 
 - (void) rpcRemoveTorrent: (Torrent *) torrent
 {
     [self removeTorrents:[NSArray arrayWithObject: torrent] trashData:NO];
+    
 }
 
 - (void) rpcStartedStoppedTorrent: (Torrent *) torrent
 {
     [torrent update];
     
-	//TODO: Post notification to update this torrent's info in UI. 
-	
+    [[NSNotificationCenter defaultCenter] postNotificationName:NotificationNewTorrentAdded object:self userInfo:nil];
     [self updateTorrentHistory];
+
 }
 
 - (void) rpcChangedTorrent: (Torrent *) torrent
 {
     [torrent update];
     
-	//TODO: Post notification to update this torrent's info in UI.
+    [[NSNotificationCenter defaultCenter] postNotificationName:NotificationNewTorrentAdded object:self userInfo:nil];
+    [self updateTorrentHistory];
+
 }
 
 - (void) rpcMovedTorrent: (Torrent *) torrent
 {
     [torrent update];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:NotificationNewTorrentAdded object:self userInfo:nil];
+    [self updateTorrentHistory];
 }
 
 

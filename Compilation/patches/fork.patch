@@ -1,0 +1,21 @@
+--- torrent.c	2014-07-01 19:09:02.000000000 +0200
++++ torrent_new.c	2015-09-28 15:09:13.000000000 +0200
+@@ -2124,7 +2124,7 @@
+ #else
+       signal (SIGCHLD, onSigCHLD);
+ 
+-      if (!fork ())
++      /*if (!fork ())
+         {
+           for (i=0; env[i]; ++i)
+             putenv (env[i]);
+@@ -2133,7 +2133,8 @@
+             tr_logAddTorErr (tor, "error executing script \"%s\": %s", cmd[0], tr_strerror (errno));
+ 
+           _exit (0);
+-        }
++        }*/
++      _exit (0);        
+ #endif
+ 
+       for (i=0; cmd[i]; ++i) tr_free (cmd[i]);

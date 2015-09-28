@@ -49,7 +49,7 @@ function do_loadenv {
 function do_export {
 	unset CFLAGS
 	if [[ ${ARCH} != "system" ]]; then
-		export DEVROOT=`xcrun --sdk ${SDK} --show-sdk-path`/../../
+		export DEVROOT=`xcode-select -print-path`
 		export SDKROOT=`xcrun --sdk ${SDK} --show-sdk-path`
 		export LD=${DEVROOT}/usr/bin/ld
 		export CPP="xcrun -sdk ${SDK} cpp"
@@ -119,7 +119,7 @@ function do_openssl {
 	fi
 	
 	xcrun -sdk ${SDK} make -j ${PARALLEL_NUM} || do_abort "$FUNCNAME: make failed "
-	xcrun -sdk ${SDK} make install || do_abort "$FUNCNAME: install failed "
+	xcrun -sdk ${SDK} make install_sw || do_abort "$FUNCNAME: install failed "
 	
 	rm -rf ${BUILD_DIR}/share/man
 	
@@ -270,9 +270,9 @@ done
 echo "ARCH: ${ARCH}"
 
 mkdir -p ${TEMP_DIR}
-#do_openssl
-#do_curl
-#do_libevent
+do_openssl
+do_curl
+do_libevent
 do_transmission
 
 done
